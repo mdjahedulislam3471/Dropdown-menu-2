@@ -1,0 +1,82 @@
+/* BROWSER RESETING START */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+   
+}
+/* BROWSER RESETING END */
+a{ 
+    text-decoration: none;
+    
+}
+ul,li{
+    list-style: none;
+   
+}
+nav{
+    
+    background: #f4f4f4;
+    margin: 0 auto;
+    font-family: 'Anton', sans-serif;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    outline:1px solid red;
+    width: 800px;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul { text-align: center;}
+nav ul li a{
+    color: black;
+    padding: 15px 10px;
+    display: block;
+    font-weight:1000;
+
+}
+nav ul li:hover a{
+background-color:dodgerblue;
+color: white;
+transition: 0.5s;
+}
+/* Problem part */
+nav ul li a::before{content:"";
+    width:40px;
+    height: 40px;
+background-color: rgb(136, 9, 9);
+position: absolute;
+top: 0px;
+left: 0px;
+}  
+
+
+
+/* .perents{
+    width:800px;
+    background-color: khaki;
+    margin: auto;
+    height: 300px;
+}
+.child1,.child2,.child3{
+    width:100px;
+    height:100px;
+    background-color:red;
+}
+.child2{
+    background-color: rgb(57, 15, 209);
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    z-index: 3;
+  
+}
+.child3{
+    background-color: black;
+    position: absolute;
+    left: 250px;
+    z-index:2;
+  
+
+} */
+
